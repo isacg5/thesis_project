@@ -1,0 +1,2 @@
+person,location,position,consciousness
+p0,b,sit,conscious
