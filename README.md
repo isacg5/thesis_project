@@ -13,6 +13,8 @@ In order to execute the system, the steps to follow are the following:
 5. ros2 run plansys2_simple_example_py controller_node 
 
 ## Thesis report
+You can read the thesis project [here](https://github.com/isacg5/thesis_project/blob/main/config.yaml)
+
 
 ## Experiments
 The system has been thoroughly tested through simulated actions and a real-world scenario. The results of these experiments are presented in the following videos:
