@@ -1,0 +1,414 @@
+[INFO] [launch]: All log files can be found below /home/linuxbrew/.ros/log/2024-06-04-08-16-11-042337-SpotCORE-28751
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [python3-1]: process started with pid [28753]
+[python3-1] /home/linuxbrew/ros2_ws/src/isabel_interface/scripts/vel2.py:228: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+[python3-1]   data = np.fromstring(_point_cloud_task.proto[0].point_cloud.data, dtype=np.float32)
+[INFO] [2cpp_executable-2]: process started with pid [29016]
+[INFO] [rtabmap-3]: process started with pid [29182]
+[INFO] [rtabmap_viz-4]: process started with pid [29184]
+[INFO] [rviz2-5]: process started with pid [29186]
+[INFO] [point_cloud_xyzrgb-6]: process started with pid [29188]
+[rviz2-5] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-linuxbrew'
+[rviz2-5] [INFO] [1717488981.622703701] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-5] [INFO] [1717488981.622987762] [rviz2]: OpenGl version: 4.5 (GLSL 4.5)
+[rviz2-5] [INFO] [1717488981.644069639] [rviz2]: Stereo is NOT SUPPORTED
+[point_cloud_xyzrgb-6] [INFO] [1717488981.908943858] [point_cloud_xyzrgb]: Approximate time sync = true
+[rtabmap-3] [INFO] [1717488981.983994974] [rtabmap.rtabmap]: rtabmap(maps): latch                      = true
+[rtabmap-3] [INFO] [1717488981.984318263] [rtabmap.rtabmap]: rtabmap(maps): map_filter_radius          = 0.000000
+[rtabmap-3] [INFO] [1717488981.984347921] [rtabmap.rtabmap]: rtabmap(maps): map_filter_angle           = 30.000000
+[rtabmap-3] [INFO] [1717488981.984361886] [rtabmap.rtabmap]: rtabmap(maps): map_cleanup                = true
+[rtabmap-3] [INFO] [1717488981.984372518] [rtabmap.rtabmap]: rtabmap(maps): map_always_update          = false
+[rtabmap-3] [INFO] [1717488981.984382231] [rtabmap.rtabmap]: rtabmap(maps): map_empty_ray_tracing      = true
+[rtabmap-3] [INFO] [1717488981.984391942] [rtabmap.rtabmap]: rtabmap(maps): cloud_output_voxelized     = true
+[rtabmap-3] [INFO] [1717488981.984404879] [rtabmap.rtabmap]: rtabmap(maps): cloud_subtract_filtering   = false
+[rtabmap-3] [INFO] [1717488981.984414949] [rtabmap.rtabmap]: rtabmap(maps): cloud_subtract_filtering_min_neighbors = 2
+[rtabmap-3] [INFO] [1717488981.984475304] [rtabmap.rtabmap]: rtabmap(maps): octomap_tree_depth         = 16
+[rtabmap_viz-4] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-linuxbrew'
+[rtabmap-3] [INFO] [1717488982.035784532] [rtabmap.rtabmap]: rtabmap: frame_id      = bodyy
+[rtabmap-3] [INFO] [1717488982.035894839] [rtabmap.rtabmap]: rtabmap: map_frame_id  = map
+[rtabmap-3] [INFO] [1717488982.035920985] [rtabmap.rtabmap]: rtabmap: log_to_rosout_level  = 4
+[rtabmap-3] [INFO] [1717488982.035931557] [rtabmap.rtabmap]: rtabmap: initial_pose  = 
+[rtabmap-3] [INFO] [1717488982.035941258] [rtabmap.rtabmap]: rtabmap: use_action_for_goal  = false
+[rtabmap-3] [INFO] [1717488982.035950920] [rtabmap.rtabmap]: rtabmap: tf_delay      = 0.050000
+[rtabmap-3] [INFO] [1717488982.035973953] [rtabmap.rtabmap]: rtabmap: tf_tolerance  = 0.100000
+[rtabmap-3] [INFO] [1717488982.035987018] [rtabmap.rtabmap]: rtabmap: odom_sensor_sync   = false
+[rtabmap-3] [INFO] [1717488982.035997781] [rtabmap.rtabmap]: rtabmap: pub_loc_pose_only_when_localizing = false
+[rtabmap-3] [INFO] [1717488982.036010089] [rtabmap.rtabmap]: rtabmap: gen_scan  = false
+[rtabmap-3] [INFO] [1717488982.036020899] [rtabmap.rtabmap]: rtabmap: gen_depth  = false
+[rtabmap-3] [INFO] [1717488982.036030885] [rtabmap.rtabmap]: rtabmap: scan_cloud_max_points = 0
+[rtabmap-3] [INFO] [1717488982.036041986] [rtabmap.rtabmap]: rtabmap: scan_cloud_is_2d = false
+[rtabmap-3] [INFO] [1717488982.092544090] [rtabmap.rtabmap]: Setting RTAB-Map parameter "Mem/IncrementalMemory"="true"
+[rtabmap-3] [INFO] [1717488982.092674531] [rtabmap.rtabmap]: Setting RTAB-Map parameter "Mem/InitWMWithAllNodes"="false"
+[rtabmap-3] [INFO] [1717488982.105835550] [rtabmap.rtabmap]: Update RTAB-Map parameter "Bayes/FullPredictionUpdate"="false" from arguments
+[rtabmap-3] [INFO] [1717488982.105910441] [rtabmap.rtabmap]: Update RTAB-Map parameter "GTSAM/Optimizer"="2" from arguments
+[rtabmap-3] [INFO] [1717488982.105926778] [rtabmap.rtabmap]: Update RTAB-Map parameter "Grid/FlatObstacleDetected"="false" from arguments
+[rtabmap-3] [INFO] [1717488982.105939621] [rtabmap.rtabmap]: Update RTAB-Map parameter "Grid/MaxGroundAngle"="15" from arguments
+[rtabmap-3] [INFO] [1717488982.105951276] [rtabmap.rtabmap]: Update RTAB-Map parameter "Grid/MaxGroundHeight"="-0.5" from arguments
+[rtabmap-3] [INFO] [1717488982.105962296] [rtabmap.rtabmap]: Update RTAB-Map parameter "Grid/MinGroundHeight"="-2.0" from arguments
+[rtabmap-3] [INFO] [1717488982.105973046] [rtabmap.rtabmap]: Update RTAB-Map parameter "Grid/NormalsSegmentation"="true" from arguments
+[rtabmap-3] [INFO] [1717488982.105984437] [rtabmap.rtabmap]: Update RTAB-Map parameter "Grid/RangeMax"="0.0" from arguments
+[rtabmap-3] [INFO] [1717488982.105995312] [rtabmap.rtabmap]: Update RTAB-Map parameter "Grid/RayTracing"="true" from arguments
+[rtabmap-3] [INFO] [1717488982.106005729] [rtabmap.rtabmap]: Update RTAB-Map parameter "GridGlobal/Eroded"="false" from arguments
+[rtabmap-3] [INFO] [1717488982.106017245] [rtabmap.rtabmap]: Update RTAB-Map parameter "GridGlobal/ProbHit"="0.9" from arguments
+[rtabmap-3] [INFO] [1717488982.106028492] [rtabmap.rtabmap]: Update RTAB-Map parameter "GridGlobal/ProbMiss"="0.45" from arguments
+[rtabmap-3] [INFO] [1717488982.106039059] [rtabmap.rtabmap]: Update RTAB-Map parameter "GridGlobal/UpdateError"="0.1" from arguments
+[rtabmap-3] [INFO] [1717488982.106049887] [rtabmap.rtabmap]: Update RTAB-Map parameter "Optimizer/PriorsIgnored"="false" from arguments
+[rtabmap-3] [INFO] [1717488982.106061146] [rtabmap.rtabmap]: Update RTAB-Map parameter "Optimizer/Robust"="false" from arguments
+[rtabmap-3] [INFO] [1717488982.106071789] [rtabmap.rtabmap]: Update RTAB-Map parameter "Optimizer/Strategy"="2" from arguments
+[rtabmap-3] [INFO] [1717488982.106113373] [rtabmap.rtabmap]: Update RTAB-Map parameter "RGBD/NeighborLinkRefining"="true" from arguments
+[rtabmap-3] [INFO] [1717488982.106128704] [rtabmap.rtabmap]: Update RTAB-Map parameter "Reg/Strategy"="1" from arguments
+[rtabmap-3] [WARN] [1717488982.106246993] [rtabmap.rtabmap]: Setting "Grid/Sensor" parameter to 0 (default 1) as "subscribe_scan" or "subscribe_scan_cloud" or "gen_scan" is true. The occupancy grid map will be constructed from laser scans. To get occupancy grid map from cloud projection, set "Grid/Sensor" to true. To suppress this warning, add <param name="Grid/Sensor" type="string" value="0"/>
+[rtabmap-3] [INFO] [1717488982.106287686] [rtabmap.rtabmap]: Setting "Icp/PointToPlaneRadius" parameter to 0 (default 0.000000) as "subscribe_scan_cloud" is true.
+[rtabmap-3] [WARN] [1717488982.106312692] [rtabmap.rtabmap]: Setting "RGBD/ProximityPathMaxNeighbors" parameter to 1 (default 0) as "subscribe_scan_cloud" is true and "Reg/Strategy" uses ICP. To disable, set "RGBD/ProximityPathMaxNeighbors" to 0. To suppress this warning, add <param name="RGBD/ProximityPathMaxNeighbors" type="string" value="1"/>
+[rtabmap-3] [INFO] [1717488982.106546284] [rtabmap.rtabmap]: RTAB-Map detection rate = 1.000000 Hz
+[rtabmap_viz-4] [INFO] [1717488982.120609014] [rtabmap.rtabmap_viz]: rtabmap_viz: Using configuration from "/home/linuxbrew/.ros/rtabmapGUI.ini"
+[rtabmap-3] [INFO] [1717488982.151537297] [rtabmap.rtabmap]: rtabmap: Deleted database "/home/linuxbrew/.ros/rtabmap.db" (--delete_db_on_start or -d are set).
+[rtabmap-3] [INFO] [1717488982.151630686] [rtabmap.rtabmap]: rtabmap: Using database from "/home/linuxbrew/.ros/rtabmap.db" (0 MB).
+[rtabmap-3] [INFO] [1717488982.540562328] [rtabmap.rtabmap]: rtabmap: Database version = "0.21.4".
+[rtabmap-3] [INFO] [1717488982.540650530] [rtabmap.rtabmap]: rtabmap: SLAM mode (Mem/IncrementalMemory=true)
+[rtabmap-3] [INFO] [1717488982.585709958] [rtabmap.rtabmap]: Setup callbacks
+[rtabmap-3] [INFO] [1717488982.586238659] [rtabmap.rtabmap]: rtabmap: subscribe_depth = false
+[rtabmap-3] [INFO] [1717488982.586297726] [rtabmap.rtabmap]: rtabmap: subscribe_rgb = false
+[rtabmap-3] [INFO] [1717488982.586318167] [rtabmap.rtabmap]: rtabmap: subscribe_stereo = false
+[rtabmap-3] [INFO] [1717488982.586333861] [rtabmap.rtabmap]: rtabmap: subscribe_rgbd = false (rgbd_cameras=1)
+[rtabmap-3] [INFO] [1717488982.586351577] [rtabmap.rtabmap]: rtabmap: subscribe_sensor_data = false
+[rtabmap-3] [INFO] [1717488982.586366774] [rtabmap.rtabmap]: rtabmap: subscribe_odom_info = false
+[rtabmap-3] [INFO] [1717488982.586381418] [rtabmap.rtabmap]: rtabmap: subscribe_user_data = false
+[rtabmap-3] [INFO] [1717488982.586396313] [rtabmap.rtabmap]: rtabmap: subscribe_scan = false
+[rtabmap-3] [INFO] [1717488982.586411647] [rtabmap.rtabmap]: rtabmap: subscribe_scan_cloud = true
+[rtabmap-3] [INFO] [1717488982.586425828] [rtabmap.rtabmap]: rtabmap: subscribe_scan_descriptor = false
+[rtabmap-3] [INFO] [1717488982.586440717] [rtabmap.rtabmap]: rtabmap: queue_size      = 1000
+[rtabmap-3] [INFO] [1717488982.586455773] [rtabmap.rtabmap]: rtabmap: qos_image       = 1
+[rtabmap-3] [INFO] [1717488982.586472863] [rtabmap.rtabmap]: rtabmap: qos_camera_info = 1
+[rtabmap-3] [INFO] [1717488982.586487927] [rtabmap.rtabmap]: rtabmap: qos_scan        = 1
+[rtabmap-3] [INFO] [1717488982.586534584] [rtabmap.rtabmap]: rtabmap: qos_odom        = 1
+[rtabmap-3] [INFO] [1717488982.586549031] [rtabmap.rtabmap]: rtabmap: qos_user_data   = 1
+[rtabmap-3] [INFO] [1717488982.586562992] [rtabmap.rtabmap]: rtabmap: approx_sync     = true
+[rtabmap-3] [INFO] [1717488982.586594427] [rtabmap.rtabmap]: Setup scan callback
+[rtabmap-3] [INFO] [1717488982.590366648] [rtabmap.rtabmap]: 
+[rtabmap-3] rtabmap subscribed to (approx sync):
+[rtabmap-3]    /odom \
+[rtabmap-3]    /tf_points2
+[rtabmap-3] [WARN] [1717488982.596111588] [rtabmap.rtabmap]: There is no image subscription, bag-of-words loop closure detection will be disabled...
+[rtabmap-3] [WARN] [1717488982.596185374] [rtabmap.rtabmap]: Setting Kp/MaxFeatures=-1 (bag-of-words disabled)
+[rtabmap_viz-4] libpng warning: iCCP: known incorrect sRGB profile
+[rtabmap_viz-4] libpng warning: iCCP: known incorrect sRGB profile
+[rtabmap_viz-4] libpng warning: iCCP: known incorrect sRGB profile
+[2cpp_executable-2] [WARN] [1717488983.462933358] [cpp_node]: Transform from odom to bodyy not available after waiting for 5 seconds.
+[rtabmap_viz-4] [WARN] [1717488983.564521802] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[rtabmap_viz-4] [INFO] [1717488983.577226187] [rtabmap.rtabmap_viz]: Reading parameters from the ROS server...
+[rtabmap_viz-4] [INFO] [1717488983.829598806] [rtabmap.rtabmap_viz]: Parameters read = 365
+[rtabmap_viz-4] [INFO] [1717488983.829672935] [rtabmap.rtabmap_viz]: Parameters successfully read.
+[rviz2-5] [INFO] [1717488983.910173749] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488979.870 for reason 'discarding message because the queue is full'
+[rviz2-5] [INFO] [1717488983.942286244] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488980.700 for reason 'discarding message because the queue is full'
+[rviz2-5] [INFO] [1717488983.974704910] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488982.375 for reason 'discarding message because the queue is full'
+[rviz2-5] [INFO] [1717488984.006115885] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488983.512 for reason 'discarding message because the queue is full'
+[rviz2-5] [INFO] [1717488984.038040196] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488983.550 for reason 'discarding message because the queue is full'
+[rviz2-5] [INFO] [1717488984.070509621] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488983.588 for reason 'discarding message because the queue is full'
+[rviz2-5] [INFO] [1717488984.102362752] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488983.637 for reason 'discarding message because the queue is full'
+[rviz2-5] [INFO] [1717488984.134143766] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488983.678 for reason 'discarding message because the queue is full'
+[rviz2-5] [INFO] [1717488984.165937538] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488983.728 for reason 'discarding message because the queue is full'
+[rviz2-5] [INFO] [1717488984.198174040] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488983.773 for reason 'discarding message because the queue is full'
+[rviz2-5] [INFO] [1717488984.230429623] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488983.811 for reason 'discarding message because the queue is full'
+[rviz2-5] [INFO] [1717488984.262547151] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488983.848 for reason 'discarding message because the queue is full'
+[rviz2-5] [INFO] [1717488984.326241934] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488983.890 for reason 'discarding message because the queue is full'
+[rviz2-5] [INFO] [1717488984.358469021] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488983.929 for reason 'discarding message because the queue is full'
+[rviz2-5] [INFO] [1717488984.390557273] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488983.972 for reason 'discarding message because the queue is full'
+[rviz2-5] [INFO] [1717488984.454621967] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488984.010 for reason 'discarding message because the queue is full'
+[rviz2-5] [INFO] [1717488984.485761828] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488984.061 for reason 'discarding message because the queue is full'
+[rviz2-5] [INFO] [1717488984.518299128] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488984.101 for reason 'discarding message because the queue is full'
+[rviz2-5] [INFO] [1717488984.582652339] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488984.139 for reason 'discarding message because the queue is full'
+[rviz2-5] [INFO] [1717488984.614242330] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488984.174 for reason 'discarding message because the queue is full'
+[rtabmap_viz-4] [INFO] [1717488984.614800233] [rtabmap.rtabmap_viz]: rtabmap_viz: subscribe_depth = false
+[rtabmap_viz-4] [INFO] [1717488984.614831189] [rtabmap.rtabmap_viz]: rtabmap_viz: subscribe_rgb = false
+[rtabmap_viz-4] [INFO] [1717488984.614838449] [rtabmap.rtabmap_viz]: rtabmap_viz: subscribe_stereo = false
+[rtabmap_viz-4] [INFO] [1717488984.614843510] [rtabmap.rtabmap_viz]: rtabmap_viz: subscribe_rgbd = false (rgbd_cameras=1)
+[rtabmap_viz-4] [INFO] [1717488984.614850385] [rtabmap.rtabmap_viz]: rtabmap_viz: subscribe_sensor_data = false
+[rtabmap_viz-4] [INFO] [1717488984.614855468] [rtabmap.rtabmap_viz]: rtabmap_viz: subscribe_odom_info = false
+[rtabmap_viz-4] [INFO] [1717488984.614860082] [rtabmap.rtabmap_viz]: rtabmap_viz: subscribe_user_data = false
+[rtabmap_viz-4] [INFO] [1717488984.614865367] [rtabmap.rtabmap_viz]: rtabmap_viz: subscribe_scan = false
+[rtabmap_viz-4] [INFO] [1717488984.614870962] [rtabmap.rtabmap_viz]: rtabmap_viz: subscribe_scan_cloud = true
+[rtabmap_viz-4] [INFO] [1717488984.614876746] [rtabmap.rtabmap_viz]: rtabmap_viz: subscribe_scan_descriptor = false
+[rtabmap_viz-4] [INFO] [1717488984.614882693] [rtabmap.rtabmap_viz]: rtabmap_viz: queue_size      = 1000
+[rtabmap_viz-4] [INFO] [1717488984.614887863] [rtabmap.rtabmap_viz]: rtabmap_viz: qos_image       = 1
+[rtabmap_viz-4] [INFO] [1717488984.614892858] [rtabmap.rtabmap_viz]: rtabmap_viz: qos_camera_info = 1
+[rtabmap_viz-4] [INFO] [1717488984.614897942] [rtabmap.rtabmap_viz]: rtabmap_viz: qos_scan        = 1
+[rtabmap_viz-4] [INFO] [1717488984.614902878] [rtabmap.rtabmap_viz]: rtabmap_viz: qos_odom        = 1
+[rtabmap_viz-4] [INFO] [1717488984.614907742] [rtabmap.rtabmap_viz]: rtabmap_viz: qos_user_data   = 1
+[rtabmap_viz-4] [INFO] [1717488984.614912967] [rtabmap.rtabmap_viz]: rtabmap_viz: approx_sync     = true
+[rtabmap_viz-4] [INFO] [1717488984.614925190] [rtabmap.rtabmap_viz]: Setup scan callback
+[rtabmap_viz-4] [INFO] [1717488984.617946029] [rtabmap.rtabmap_viz]: 
+[rtabmap_viz-4] rtabmap_viz subscribed to (approx sync):
+[rtabmap_viz-4]    /odom \
+[rtabmap_viz-4]    /tf_points2
+[rtabmap_viz-4] [INFO] [1717488984.623231953] [rtabmap.rtabmap_viz]: rtabmap_viz started.
+[rviz2-5] [INFO] [1717488984.645772991] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488984.215 for reason 'discarding message because the queue is full'
+[rviz2-5] [INFO] [1717488984.678582858] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488984.253 for reason 'discarding message because the queue is full'
+[rviz2-5] [INFO] [1717488984.750054003] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488984.291 for reason 'discarding message because the queue is full'
+[rviz2-5] [INFO] [1717488984.774341219] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488984.332 for reason 'discarding message because the queue is full'
+[rviz2-5] [INFO] [1717488984.805873613] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488984.373 for reason 'discarding message because the queue is full'
+[rviz2-5] [INFO] [1717488984.837971029] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488984.421 for reason 'discarding message because the queue is full'
+[rviz2-5] [INFO] [1717488984.902819818] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488984.459 for reason 'discarding message because the queue is full'
+[rtabmap-3] [INFO] [1717488984.930275939] [rtabmap.rtabmap]: rtabmap (1): Rate=1.00s, Limit=0.000s, Conversion=0.0009s, RTAB-Map=1.2679s, Maps update=0.0208s pub=0.0096s (local map=1, WM=1)
+[rviz2-5] [INFO] [1717488984.934491633] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488984.503 for reason 'discarding message because the queue is full'
+[rviz2-5] [INFO] [1717488984.939317815] [rviz2]: Trying to create a map of size 357 x 245 using 1 swatches
+[rviz2-5] [INFO] [1717488984.968012576] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488984.550 for reason 'discarding message because the queue is full'
+[rviz2-5] [ERROR] [1717488984.969820354] [rviz2]: Vertex Program:rviz/glsl120/indexed_8bit_image.vert Fragment Program:rviz/glsl120/indexed_8bit_image.frag GLSL link result : 
+[rviz2-5] active samplers with a different type refer to the same texture image unit
+[rviz2-5] [INFO] [1717488985.021308408] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488984.589 for reason 'discarding message because the queue is full'
+[rviz2-5] [INFO] [1717488985.062004328] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488984.627 for reason 'discarding message because the queue is full'
+[rviz2-5] [INFO] [1717488985.095711589] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488984.665 for reason 'discarding message because the queue is full'
+[rtabmap-3] [INFO] [1717488986.271095133] [rtabmap.rtabmap]: rtabmap (2): Rate=1.00s, Limit=0.000s, Conversion=0.0003s, RTAB-Map=1.3243s, Maps update=0.0114s pub=0.0037s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717488987.639921900] [rtabmap.rtabmap]: rtabmap (3): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.3133s, Maps update=0.0262s pub=0.0037s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717488989.041813375] [rtabmap.rtabmap]: rtabmap (4): Rate=1.00s, Limit=0.000s, Conversion=0.0007s, RTAB-Map=1.3720s, Maps update=0.0001s pub=0.0053s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717488990.320919563] [rtabmap.rtabmap]: rtabmap (5): Rate=1.00s, Limit=0.000s, Conversion=0.0008s, RTAB-Map=1.2443s, Maps update=0.0065s pub=0.0063s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717488991.632154157] [rtabmap.rtabmap]: rtabmap (6): Rate=1.00s, Limit=0.000s, Conversion=0.0007s, RTAB-Map=1.2563s, Maps update=0.0068s pub=0.0057s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717488992.909699854] [rtabmap.rtabmap]: rtabmap (7): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.2538s, Maps update=0.0084s pub=0.0047s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717488994.164012003] [rtabmap.rtabmap]: rtabmap (8): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.2225s, Maps update=0.0066s pub=0.0050s (local map=1, WM=1)
+[rviz2-5] [INFO] [1717488994.716755831] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488984.704 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-5] [INFO] [1717488994.753864316] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488984.743 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-5] [INFO] [1717488994.792606079] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488984.781 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-5] [INFO] [1717488994.873861379] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488984.873 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-5] [INFO] [1717488994.873937329] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488984.835 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-5] [INFO] [1717488994.911449640] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488984.910 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-5] [INFO] [1717488994.956134132] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488984.950 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-5] [INFO] [1717488994.995117299] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488984.990 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-5] [INFO] [1717488995.038513546] [rviz2]: Message Filter dropping message: frame 'bodyy' at time 1717488985.032 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rtabmap-3] [INFO] [1717488995.567146350] [rtabmap.rtabmap]: rtabmap (9): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=1.3591s, Maps update=0.0090s pub=0.0045s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717488996.918272800] [rtabmap.rtabmap]: rtabmap (10): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=1.3158s, Maps update=0.0069s pub=0.0044s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717488998.247135827] [rtabmap.rtabmap]: rtabmap (11): Rate=1.00s, Limit=0.000s, Conversion=0.0007s, RTAB-Map=1.3013s, Maps update=0.0096s pub=0.0027s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717488999.628985837] [rtabmap.rtabmap]: rtabmap (12): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=1.3516s, Maps update=0.0157s pub=0.0053s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489001.039028769] [rtabmap.rtabmap]: rtabmap (13): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.3584s, Maps update=0.0130s pub=0.0061s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489002.296594836] [rtabmap.rtabmap]: rtabmap (14): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=1.2309s, Maps update=0.0083s pub=0.0034s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489003.598288900] [rtabmap.rtabmap]: rtabmap (15): Rate=1.00s, Limit=0.000s, Conversion=0.0007s, RTAB-Map=1.2581s, Maps update=0.0069s pub=0.0038s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489004.922984750] [rtabmap.rtabmap]: rtabmap (16): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.2780s, Maps update=0.0049s pub=0.0038s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489006.202611923] [rtabmap.rtabmap]: rtabmap (17): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=1.2525s, Maps update=0.0004s pub=0.0067s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489007.764458986] [rtabmap.rtabmap]: rtabmap (18): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=1.5422s, Maps update=0.0003s pub=0.0032s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489009.174062614] [rtabmap.rtabmap]: rtabmap (19): Rate=1.00s, Limit=0.000s, Conversion=0.0007s, RTAB-Map=1.3848s, Maps update=0.0066s pub=0.0061s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489010.786009309] [rtabmap.rtabmap]: rtabmap (20): Rate=1.00s, Limit=0.000s, Conversion=0.0003s, RTAB-Map=1.5614s, Maps update=0.0002s pub=0.0046s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489012.457127476] [rtabmap.rtabmap]: rtabmap (21): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.6275s, Maps update=0.0002s pub=0.0112s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489013.969610869] [rtabmap.rtabmap]: rtabmap (22): Rate=1.00s, Limit=0.000s, Conversion=0.0003s, RTAB-Map=1.4590s, Maps update=0.0066s pub=0.0052s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489015.481072712] [rtabmap.rtabmap]: rtabmap (23): Rate=1.00s, Limit=0.000s, Conversion=0.0007s, RTAB-Map=1.4746s, Maps update=0.0067s pub=0.0049s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489017.004847204] [rtabmap.rtabmap]: rtabmap (24): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=1.4678s, Maps update=0.0089s pub=0.0041s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489018.460246010] [rtabmap.rtabmap]: rtabmap (25): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=1.4152s, Maps update=0.0048s pub=0.0046s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489019.831781492] [rtabmap.rtabmap]: rtabmap (26): Rate=1.00s, Limit=0.000s, Conversion=0.0007s, RTAB-Map=1.3313s, Maps update=0.0092s pub=0.0042s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489021.265034823] [rtabmap.rtabmap]: rtabmap (27): Rate=1.00s, Limit=0.000s, Conversion=0.0007s, RTAB-Map=1.4115s, Maps update=0.0066s pub=0.0076s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489022.742938040] [rtabmap.rtabmap]: rtabmap (28): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=1.4250s, Maps update=0.0079s pub=0.0034s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489024.246790097] [rtabmap.rtabmap]: rtabmap (29): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=1.4510s, Maps update=0.0056s pub=0.0052s (local map=1, WM=1)
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:16:24.958) MainWindow.cpp:1960::processStats() Processing time (1.267348s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:16:26.300) MainWindow.cpp:1960::processStats() Processing time (1.323192s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:16:27.650) MainWindow.cpp:1960::processStats() Processing time (1.310436s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:16:29.065) MainWindow.cpp:1960::processStats() Processing time (1.370979s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:16:30.367) MainWindow.cpp:1960::processStats() Processing time (1.243590s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:16:31.663) MainWindow.cpp:1960::processStats() Processing time (1.251631s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:16:32.940) MainWindow.cpp:1960::processStats() Processing time (1.252577s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:16:34.175) MainWindow.cpp:1960::processStats() Processing time (1.221244s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:16:35.622) MainWindow.cpp:1960::processStats() Processing time (1.357830s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:16:36.922) MainWindow.cpp:1960::processStats() Processing time (1.314842s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:16:38.267) MainWindow.cpp:1960::processStats() Processing time (1.300321s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:16:39.637) MainWindow.cpp:1960::processStats() Processing time (1.350476s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:16:43.604) MainWindow.cpp:1960::processStats() Processing time (1.256900s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:16:44.928) MainWindow.cpp:1960::processStats() Processing time (1.277223s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:16:46.222) MainWindow.cpp:1960::processStats() Processing time (1.243729s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:16:47.796) MainWindow.cpp:1960::processStats() Processing time (1.533926s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:16:49.228) MainWindow.cpp:1960::processStats() Processing time (1.383854s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:16:52.184) MainWindow.cpp:1960::processStats() Processing time (1.560321s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:16:52.463) MainWindow.cpp:1960::processStats() Processing time (1.626013s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:16:53.982) MainWindow.cpp:1960::processStats() Processing time (1.458243s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:16:55.488) MainWindow.cpp:1960::processStats() Processing time (1.473786s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:16:57.008) MainWindow.cpp:1960::processStats() Processing time (1.466539s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:16:58.483) MainWindow.cpp:1960::processStats() Processing time (1.414478s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:17:01.316) MainWindow.cpp:1960::processStats() Processing time (1.410873s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:17:02.755) MainWindow.cpp:1960::processStats() Processing time (1.423539s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap-3] [INFO] [1717489025.669310277] [rtabmap.rtabmap]: rtabmap (30): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.3888s, Maps update=0.0001s pub=0.0049s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489027.083079901] [rtabmap.rtabmap]: rtabmap (31): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=1.3827s, Maps update=0.0073s pub=0.0042s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489028.583035359] [rtabmap.rtabmap]: rtabmap (32): Rate=1.00s, Limit=0.000s, Conversion=0.0007s, RTAB-Map=1.4720s, Maps update=0.0106s pub=0.0114s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489029.950018947] [rtabmap.rtabmap]: rtabmap (33): Rate=1.00s, Limit=0.000s, Conversion=0.0009s, RTAB-Map=1.3292s, Maps update=0.0083s pub=0.0043s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489031.359729131] [rtabmap.rtabmap]: rtabmap (34): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.3862s, Maps update=0.0084s pub=0.0064s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489032.778699745] [rtabmap.rtabmap]: rtabmap (35): Rate=1.00s, Limit=0.000s, Conversion=0.0008s, RTAB-Map=1.3796s, Maps update=0.0002s pub=0.0033s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489034.247337647] [rtabmap.rtabmap]: rtabmap (36): Rate=1.00s, Limit=0.000s, Conversion=0.0009s, RTAB-Map=1.4259s, Maps update=0.0051s pub=0.0052s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489035.685022149] [rtabmap.rtabmap]: rtabmap (37): Rate=1.00s, Limit=0.000s, Conversion=0.0007s, RTAB-Map=1.4057s, Maps update=0.0128s pub=0.0048s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489037.106791000] [rtabmap.rtabmap]: rtabmap (38): Rate=1.00s, Limit=0.000s, Conversion=0.0009s, RTAB-Map=1.3914s, Maps update=0.0078s pub=0.0046s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489038.552740738] [rtabmap.rtabmap]: rtabmap (39): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.3891s, Maps update=0.0072s pub=0.0057s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489039.994460013] [rtabmap.rtabmap]: rtabmap (40): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.4082s, Maps update=0.0091s pub=0.0041s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489041.516778529] [rtabmap.rtabmap]: rtabmap (41): Rate=1.00s, Limit=0.000s, Conversion=0.0007s, RTAB-Map=1.4680s, Maps update=0.0091s pub=0.0067s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489043.001875703] [rtabmap.rtabmap]: rtabmap (42): Rate=1.00s, Limit=0.000s, Conversion=0.0007s, RTAB-Map=1.4544s, Maps update=0.0064s pub=0.0057s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489044.494687133] [rtabmap.rtabmap]: rtabmap (43): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=1.4722s, Maps update=0.0004s pub=0.0051s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489045.943678978] [rtabmap.rtabmap]: rtabmap (44): Rate=1.00s, Limit=0.000s, Conversion=0.0008s, RTAB-Map=1.4186s, Maps update=0.0103s pub=0.0037s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489047.424503988] [rtabmap.rtabmap]: rtabmap (45): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.4214s, Maps update=0.0102s pub=0.0056s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489048.996705967] [rtabmap.rtabmap]: rtabmap (46): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=1.5250s, Maps update=0.0003s pub=0.0049s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489050.449931175] [rtabmap.rtabmap]: rtabmap (47): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.4268s, Maps update=0.0076s pub=0.0057s (local map=1, WM=1)
+[rtabmap_viz-4] [WARN] [1717489051.624981824] [rtabmap.rtabmap_viz]: rtabmap_viz: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=1000).
+[rtabmap_viz-4] rtabmap_viz subscribed to (approx sync):
+[rtabmap_viz-4]    /odom \
+[rtabmap_viz-4]    /tf_points2
+[rtabmap-3] [INFO] [1717489051.888736852] [rtabmap.rtabmap]: rtabmap (48): Rate=1.00s, Limit=0.000s, Conversion=0.0009s, RTAB-Map=1.3963s, Maps update=0.0063s pub=0.0040s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489053.384036648] [rtabmap.rtabmap]: rtabmap (49): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.4542s, Maps update=0.0065s pub=0.0030s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489055.076335118] [rtabmap.rtabmap]: rtabmap (50): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=1.6448s, Maps update=0.0100s pub=0.0110s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489056.600452311] [rtabmap.rtabmap]: rtabmap (51): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.5051s, Maps update=0.0058s pub=0.0084s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489058.130559348] [rtabmap.rtabmap]: rtabmap (52): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.4722s, Maps update=0.0131s pub=0.0102s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489059.565383786] [rtabmap.rtabmap]: rtabmap (53): Rate=1.00s, Limit=0.000s, Conversion=0.0008s, RTAB-Map=1.4116s, Maps update=0.0082s pub=0.0049s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489061.022414177] [rtabmap.rtabmap]: rtabmap (54): Rate=1.00s, Limit=0.000s, Conversion=0.0007s, RTAB-Map=1.4287s, Maps update=0.0103s pub=0.0034s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489062.485418532] [rtabmap.rtabmap]: rtabmap (55): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=1.4119s, Maps update=0.0072s pub=0.0039s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489063.975006004] [rtabmap.rtabmap]: rtabmap (56): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.4508s, Maps update=0.0080s pub=0.0082s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489065.447229810] [rtabmap.rtabmap]: rtabmap (57): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=1.4554s, Maps update=0.0061s pub=0.0033s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489066.879075731] [rtabmap.rtabmap]: rtabmap (58): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.4064s, Maps update=0.0085s pub=0.0045s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489068.268934085] [rtabmap.rtabmap]: rtabmap (59): Rate=1.00s, Limit=0.000s, Conversion=0.0011s, RTAB-Map=1.3565s, Maps update=0.0056s pub=0.0057s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489069.714483350] [rtabmap.rtabmap]: rtabmap (60): Rate=1.00s, Limit=0.000s, Conversion=0.0007s, RTAB-Map=1.3942s, Maps update=0.0090s pub=0.0038s (local map=1, WM=1)
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:17:04.251) MainWindow.cpp:1960::processStats() Processing time (1.449993s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:17:05.683) MainWindow.cpp:1960::processStats() Processing time (1.387800s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:17:07.138) MainWindow.cpp:1960::processStats() Processing time (1.382048s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:17:08.613) MainWindow.cpp:1960::processStats() Processing time (1.471081s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:17:09.953) MainWindow.cpp:1960::processStats() Processing time (1.327071s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:17:11.391) MainWindow.cpp:1960::processStats() Processing time (1.384693s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:17:14.263) MainWindow.cpp:1960::processStats() Processing time (1.425065s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:17:15.728) MainWindow.cpp:1960::processStats() Processing time (1.402949s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:17:17.157) MainWindow.cpp:1960::processStats() Processing time (1.390099s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:17:18.565) MainWindow.cpp:1960::processStats() Processing time (1.388056s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:17:20.069) MainWindow.cpp:1960::processStats() Processing time (1.407226s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:17:21.543) MainWindow.cpp:1960::processStats() Processing time (1.467098s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:17:23.005) MainWindow.cpp:1960::processStats() Processing time (1.453480s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:17:24.528) MainWindow.cpp:1960::processStats() Processing time (1.467665s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:17:27.462) MainWindow.cpp:1960::processStats() Processing time (1.419423s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:17:31.931) MainWindow.cpp:1960::processStats() Processing time (1.395101s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:17:33.386) MainWindow.cpp:1960::processStats() Processing time (1.453294s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:17:35.151) MainWindow.cpp:1960::processStats() Processing time (1.643701s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:17:38.150) MainWindow.cpp:1960::processStats() Processing time (1.470218s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:17:39.569) MainWindow.cpp:1960::processStats() Processing time (1.410689s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:17:42.490) MainWindow.cpp:1960::processStats() Processing time (1.410902s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:17:44.005) MainWindow.cpp:1960::processStats() Processing time (1.447311s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:17:45.461) MainWindow.cpp:1960::processStats() Processing time (1.454549s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:17:46.907) MainWindow.cpp:1960::processStats() Processing time (1.404964s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:17:48.272) MainWindow.cpp:1960::processStats() Processing time (1.355191s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap-3] [INFO] [1717489071.221768803] [rtabmap.rtabmap]: rtabmap (61): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=1.4548s, Maps update=0.0059s pub=0.0048s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489072.683345025] [rtabmap.rtabmap]: rtabmap (62): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.4416s, Maps update=0.0069s pub=0.0042s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489074.174297240] [rtabmap.rtabmap]: rtabmap (63): Rate=1.00s, Limit=0.000s, Conversion=0.0007s, RTAB-Map=1.4194s, Maps update=0.0080s pub=0.0068s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489075.662991526] [rtabmap.rtabmap]: rtabmap (64): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=1.4547s, Maps update=0.0051s pub=0.0046s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489077.226944494] [rtabmap.rtabmap]: rtabmap (65): Rate=1.00s, Limit=0.000s, Conversion=0.0008s, RTAB-Map=1.5190s, Maps update=0.0002s pub=0.0033s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489078.635279069] [rtabmap.rtabmap]: rtabmap (66): Rate=1.00s, Limit=0.000s, Conversion=0.0008s, RTAB-Map=1.3969s, Maps update=0.0003s pub=0.0036s (local map=1, WM=1)
+[rtabmap_viz-4] [WARN] [1717489079.625612264] [rtabmap.rtabmap_viz]: rtabmap_viz: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=1000).
+[rtabmap_viz-4] rtabmap_viz subscribed to (approx sync):
+[rtabmap_viz-4]    /odom \
+[rtabmap_viz-4]    /tf_points2
+[rtabmap-3] [INFO] [1717489080.066864167] [rtabmap.rtabmap]: rtabmap (67): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=1.4010s, Maps update=0.0074s pub=0.0044s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489081.511879243] [rtabmap.rtabmap]: rtabmap (68): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=1.3901s, Maps update=0.0075s pub=0.0051s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489082.974158700] [rtabmap.rtabmap]: rtabmap (69): Rate=1.00s, Limit=0.000s, Conversion=0.0009s, RTAB-Map=1.4410s, Maps update=0.0091s pub=0.0048s (local map=1, WM=1)
+[rviz2-5] [INFO] [1717489083.012809447] [rviz2]: Setting goal pose: Frame:map, Position(-0.86326, 0.252466, 0), Orientation(0, 0, 0.739285, 0.673393) = Angle: 1.66402
+[rtabmap-3] [INFO] [1717489084.498663515] [rtabmap.rtabmap]: rtabmap (70): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.4860s, Maps update=0.0080s pub=0.0047s (local map=1, WM=1)
+[rtabmap-3] [INFO] [1717489087.019611769] [rtabmap.rtabmap]: rtabmap (71): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=2.4450s, Maps update=0.0283s pub=0.0076s (local map=2, WM=2)
+[rviz2-5] [INFO] [1717489087.092369054] [rviz2]: Trying to create a map of size 364 x 245 using 1 swatches
+[rtabmap-3] [INFO] [1717489088.561511656] [rtabmap.rtabmap]: rtabmap (72): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=1.4854s, Maps update=0.0070s pub=0.0048s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489090.142105657] [rtabmap.rtabmap]: rtabmap (73): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.5353s, Maps update=0.0002s pub=0.0029s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489091.689336889] [rtabmap.rtabmap]: rtabmap (74): Rate=1.00s, Limit=0.000s, Conversion=0.0007s, RTAB-Map=1.5147s, Maps update=0.0076s pub=0.0132s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489093.193710023] [rtabmap.rtabmap]: rtabmap (75): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=1.4622s, Maps update=0.0075s pub=0.0037s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489094.706054535] [rtabmap.rtabmap]: rtabmap (76): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=1.4819s, Maps update=0.0082s pub=0.0035s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489096.174702890] [rtabmap.rtabmap]: rtabmap (77): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=1.4450s, Maps update=0.0106s pub=0.0051s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489097.620905205] [rtabmap.rtabmap]: rtabmap (78): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.4017s, Maps update=0.0077s pub=0.0036s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489099.052929242] [rtabmap.rtabmap]: rtabmap (79): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=1.4159s, Maps update=0.0001s pub=0.0047s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489100.532337766] [rtabmap.rtabmap]: rtabmap (80): Rate=1.00s, Limit=0.000s, Conversion=0.0003s, RTAB-Map=1.4542s, Maps update=0.0069s pub=0.0044s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489102.029119040] [rtabmap.rtabmap]: rtabmap (81): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.4404s, Maps update=0.0103s pub=0.0073s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489103.481091887] [rtabmap.rtabmap]: rtabmap (82): Rate=1.00s, Limit=0.000s, Conversion=0.0009s, RTAB-Map=1.4159s, Maps update=0.0103s pub=0.0045s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489104.989294015] [rtabmap.rtabmap]: rtabmap (83): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=1.4684s, Maps update=0.0074s pub=0.0063s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489106.420236782] [rtabmap.rtabmap]: rtabmap (84): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=1.3775s, Maps update=0.0073s pub=0.0044s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489107.851819909] [rtabmap.rtabmap]: rtabmap (85): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=1.4105s, Maps update=0.0078s pub=0.0056s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489109.376715884] [rtabmap.rtabmap]: rtabmap (86): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=1.4908s, Maps update=0.0002s pub=0.0091s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489110.817868804] [rtabmap.rtabmap]: rtabmap (87): Rate=1.00s, Limit=0.000s, Conversion=0.0011s, RTAB-Map=1.4195s, Maps update=0.0101s pub=0.0043s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489112.332456322] [rtabmap.rtabmap]: rtabmap (88): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=1.4696s, Maps update=0.0084s pub=0.0035s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489113.883821392] [rtabmap.rtabmap]: rtabmap (89): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=1.5138s, Maps update=0.0079s pub=0.0055s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489115.344660928] [rtabmap.rtabmap]: rtabmap (90): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=1.4230s, Maps update=0.0091s pub=0.0040s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489116.891255698] [rtabmap.rtabmap]: rtabmap (91): Rate=1.00s, Limit=0.000s, Conversion=0.0034s, RTAB-Map=1.5122s, Maps update=0.0058s pub=0.0048s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489118.484937530] [rtabmap.rtabmap]: rtabmap (92): Rate=1.00s, Limit=0.000s, Conversion=0.0010s, RTAB-Map=1.5537s, Maps update=0.0155s pub=0.0058s (local map=2, WM=2)
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:17:49.745) MainWindow.cpp:1960::processStats() Processing time (1.392780s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:17:51.224) MainWindow.cpp:1960::processStats() Processing time (1.453163s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:17:52.744) MainWindow.cpp:1960::processStats() Processing time (1.440791s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:17:54.177) MainWindow.cpp:1960::processStats() Processing time (1.417146s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:17:55.723) MainWindow.cpp:1960::processStats() Processing time (1.453791s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:00.101) MainWindow.cpp:1960::processStats() Processing time (1.400243s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:01.519) MainWindow.cpp:1960::processStats() Processing time (1.389016s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:03.021) MainWindow.cpp:1960::processStats() Processing time (1.438931s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:04.521) MainWindow.cpp:1960::processStats() Processing time (1.478627s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:07.047) MainWindow.cpp:1960::processStats() Processing time (2.444034s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:08.594) MainWindow.cpp:1960::processStats() Processing time (1.481997s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:11.704) MainWindow.cpp:1960::processStats() Processing time (1.513627s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:13.280) MainWindow.cpp:1960::processStats() Processing time (1.460954s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:16.209) MainWindow.cpp:1960::processStats() Processing time (1.437921s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:19.057) MainWindow.cpp:1960::processStats() Processing time (1.414904s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:20.535) MainWindow.cpp:1960::processStats() Processing time (1.453026s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:22.034) MainWindow.cpp:1960::processStats() Processing time (1.437518s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:23.534) MainWindow.cpp:1960::processStats() Processing time (1.414690s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:25.002) MainWindow.cpp:1960::processStats() Processing time (1.467654s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:27.860) MainWindow.cpp:1960::processStats() Processing time (1.402715s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:29.412) MainWindow.cpp:1960::processStats() Processing time (1.489534s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:30.881) MainWindow.cpp:1960::processStats() Processing time (1.417461s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:32.403) MainWindow.cpp:1960::processStats() Processing time (1.465065s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:33.887) MainWindow.cpp:1960::processStats() Processing time (1.508814s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:36.966) MainWindow.cpp:1960::processStats() Processing time (1.511491s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap-3] [INFO] [1717489119.999005442] [rtabmap.rtabmap]: rtabmap (93): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=1.4823s, Maps update=0.0074s pub=0.0044s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489121.413959114] [rtabmap.rtabmap]: rtabmap (94): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=1.3993s, Maps update=0.0071s pub=0.0034s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489122.926234695] [rtabmap.rtabmap]: rtabmap (95): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.4604s, Maps update=0.0001s pub=0.0045s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489124.380902271] [rtabmap.rtabmap]: rtabmap (96): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=1.4362s, Maps update=0.0080s pub=0.0054s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489125.823253981] [rtabmap.rtabmap]: rtabmap (97): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.3877s, Maps update=0.0078s pub=0.0146s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489127.325941137] [rtabmap.rtabmap]: rtabmap (98): Rate=1.00s, Limit=0.000s, Conversion=0.0007s, RTAB-Map=1.4733s, Maps update=0.0074s pub=0.0058s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489128.844465946] [rtabmap.rtabmap]: rtabmap (99): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.4792s, Maps update=0.0055s pub=0.0052s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489130.360160381] [rtabmap.rtabmap]: rtabmap (100): Rate=1.00s, Limit=0.000s, Conversion=0.0007s, RTAB-Map=1.4469s, Maps update=0.0097s pub=0.0049s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489131.811111159] [rtabmap.rtabmap]: rtabmap (101): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=1.4125s, Maps update=0.0004s pub=0.0132s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489133.229600109] [rtabmap.rtabmap]: rtabmap (102): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=1.3978s, Maps update=0.0002s pub=0.0115s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489134.692278561] [rtabmap.rtabmap]: rtabmap (103): Rate=1.00s, Limit=0.000s, Conversion=0.0007s, RTAB-Map=1.4342s, Maps update=0.0071s pub=0.0047s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489136.231343120] [rtabmap.rtabmap]: rtabmap (104): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=1.5070s, Maps update=0.0063s pub=0.0040s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489137.785412221] [rtabmap.rtabmap]: rtabmap (105): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.5358s, Maps update=0.0072s pub=0.0049s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489139.274421224] [rtabmap.rtabmap]: rtabmap (106): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=1.4490s, Maps update=0.0092s pub=0.0048s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489140.821184097] [rtabmap.rtabmap]: rtabmap (107): Rate=1.00s, Limit=0.000s, Conversion=0.0009s, RTAB-Map=1.5156s, Maps update=0.0064s pub=0.0041s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489142.442988736] [rtabmap.rtabmap]: rtabmap (108): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=1.5604s, Maps update=0.0131s pub=0.0033s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489143.928429551] [rtabmap.rtabmap]: rtabmap (109): Rate=1.00s, Limit=0.000s, Conversion=0.0010s, RTAB-Map=1.4501s, Maps update=0.0062s pub=0.0061s (local map=2, WM=2)
+[rtabmap-3] [INFO] [1717489146.393958923] [rtabmap.rtabmap]: rtabmap (110): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=2.4021s, Maps update=0.0312s pub=0.0096s (local map=3, WM=3)
+[rviz2-5] [INFO] [1717489146.500547690] [rviz2]: Trying to create a map of size 366 x 246 using 1 swatches
+[rtabmap-3] [INFO] [1717489148.977754645] [rtabmap.rtabmap]: rtabmap (111): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=2.5238s, Maps update=0.0257s pub=0.0069s (local map=4, WM=4)
+[rtabmap-3] [INFO] [1717489150.571859173] [rtabmap.rtabmap]: rtabmap (112): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=1.5364s, Maps update=0.0078s pub=0.0032s (local map=4, WM=4)
+[rtabmap-3] [INFO] [1717489152.058933498] [rtabmap.rtabmap]: rtabmap (113): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=1.4667s, Maps update=0.0073s pub=0.0044s (local map=4, WM=4)
+[rtabmap-3] [INFO] [1717489153.704108913] [rtabmap.rtabmap]: rtabmap (114): Rate=1.00s, Limit=0.000s, Conversion=0.0007s, RTAB-Map=1.5860s, Maps update=0.0181s pub=0.0084s (local map=4, WM=4)
+[rtabmap-3] [INFO] [1717489155.143005223] [rtabmap.rtabmap]: rtabmap (115): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.4083s, Maps update=0.0085s pub=0.0052s (local map=4, WM=4)
+[rtabmap-3] [INFO] [1717489156.841963150] [rtabmap.rtabmap]: rtabmap (116): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.6422s, Maps update=0.0065s pub=0.0149s (local map=4, WM=4)
+[rtabmap-3] [INFO] [1717489158.332741549] [rtabmap.rtabmap]: rtabmap (117): Rate=1.00s, Limit=0.000s, Conversion=0.0007s, RTAB-Map=1.4455s, Maps update=0.0001s pub=0.0040s (local map=4, WM=4)
+[rtabmap-3] [INFO] [1717489159.735480939] [rtabmap.rtabmap]: rtabmap (118): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.3817s, Maps update=0.0002s pub=0.0051s (local map=4, WM=4)
+[rtabmap-3] [INFO] [1717489161.347084380] [rtabmap.rtabmap]: rtabmap (119): Rate=1.00s, Limit=0.000s, Conversion=0.0007s, RTAB-Map=1.5874s, Maps update=0.0128s pub=0.0052s (local map=4, WM=4)
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:38.496) MainWindow.cpp:1960::processStats() Processing time (1.551856s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:40.054) MainWindow.cpp:1960::processStats() Processing time (1.480926s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:41.452) MainWindow.cpp:1960::processStats() Processing time (1.393572s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:42.942) MainWindow.cpp:1960::processStats() Processing time (1.458892s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:45.847) MainWindow.cpp:1960::processStats() Processing time (1.386707s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:47.346) MainWindow.cpp:1960::processStats() Processing time (1.472256s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:48.908) MainWindow.cpp:1960::processStats() Processing time (1.478397s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:51.846) MainWindow.cpp:1960::processStats() Processing time (1.408098s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:53.258) MainWindow.cpp:1960::processStats() Processing time (1.396100s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:54.695) MainWindow.cpp:1960::processStats() Processing time (1.430103s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:56.349) MainWindow.cpp:1960::processStats() Processing time (1.505944s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:57.802) MainWindow.cpp:1960::processStats() Processing time (1.531918s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:18:59.298) MainWindow.cpp:1960::processStats() Processing time (1.448023s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:19:00.854) MainWindow.cpp:1960::processStats() Processing time (1.514406s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:19:02.474) MainWindow.cpp:1960::processStats() Processing time (1.557261s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:19:03.931) MainWindow.cpp:1960::processStats() Processing time (1.447026s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:19:06.415) MainWindow.cpp:1960::processStats() Processing time (2.401378s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:19:09.001) MainWindow.cpp:1960::processStats() Processing time (2.522827s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:19:10.601) MainWindow.cpp:1960::processStats() Processing time (1.534890s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:19:12.127) MainWindow.cpp:1960::processStats() Processing time (1.465429s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:19:13.743) MainWindow.cpp:1960::processStats() Processing time (1.585184s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:19:15.191) MainWindow.cpp:1960::processStats() Processing time (1.406645s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:19:16.880) MainWindow.cpp:1960::processStats() Processing time (1.641091s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:19:18.394) MainWindow.cpp:1960::processStats() Processing time (1.444342s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap_viz-4] [33m[ WARN] (2024-06-04 08:19:19.752) MainWindow.cpp:1960::processStats() Processing time (1.380295s) is over detection rate (1.000000s), real-time problem![0m
+[rtabmap-3] [INFO] [1717489162.861342231] [rtabmap.rtabmap]: rtabmap (120): Rate=1.00s, Limit=0.000s, Conversion=0.0019s, RTAB-Map=1.4700s, Maps update=0.0060s pub=0.0045s (local map=4, WM=4)
+[rtabmap-3] [INFO] [1717489164.354631675] [rtabmap.rtabmap]: rtabmap (121): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=1.4447s, Maps update=0.0062s pub=0.0073s (local map=4, WM=4)
+[rtabmap-3] [INFO] [1717489165.937244043] [rtabmap.rtabmap]: rtabmap (122): Rate=1.00s, Limit=0.000s, Conversion=0.0003s, RTAB-Map=1.5231s, Maps update=0.0079s pub=0.0040s (local map=4, WM=4)
+[rtabmap-3] [INFO] [1717489167.454022022] [rtabmap.rtabmap]: rtabmap (123): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.4662s, Maps update=0.0083s pub=0.0052s (local map=4, WM=4)
+[rtabmap-3] [INFO] [1717489169.061837874] [rtabmap.rtabmap]: rtabmap (124): Rate=1.00s, Limit=0.000s, Conversion=0.0009s, RTAB-Map=1.5562s, Maps update=0.0081s pub=0.0067s (local map=4, WM=4)
+[rtabmap-3] [INFO] [1717489170.701272506] [rtabmap.rtabmap]: rtabmap (125): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.5994s, Maps update=0.0076s pub=0.0046s (local map=4, WM=4)
+[rtabmap-3] [INFO] [1717489172.139637910] [rtabmap.rtabmap]: rtabmap (126): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.3637s, Maps update=0.0110s pub=0.0107s (local map=4, WM=4)
+[rtabmap-3] [INFO] [1717489173.680428668] [rtabmap.rtabmap]: rtabmap (127): Rate=1.00s, Limit=0.000s, Conversion=0.0007s, RTAB-Map=1.5137s, Maps update=0.0003s pub=0.0048s (local map=4, WM=4)
+[rtabmap-3] [INFO] [1717489175.183888570] [rtabmap.rtabmap]: rtabmap (128): Rate=1.00s, Limit=0.000s, Conversion=0.0003s, RTAB-Map=1.4523s, Maps update=0.0124s pub=0.0032s (local map=4, WM=4)
+[rtabmap-3] [INFO] [1717489176.633530795] [rtabmap.rtabmap]: rtabmap (129): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=1.4253s, Maps update=0.0066s pub=0.0043s (local map=4, WM=4)
+[rtabmap-3] [INFO] [1717489178.103743128] [rtabmap.rtabmap]: rtabmap (130): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=1.4516s, Maps update=0.0003s pub=0.0042s (local map=4, WM=4)
+[rtabmap-3] [INFO] [1717489179.643690560] [rtabmap.rtabmap]: rtabmap (131): Rate=1.00s, Limit=0.000s, Conversion=0.0007s, RTAB-Map=1.4905s, Maps update=0.0099s pub=0.0058s (local map=4, WM=4)
+[rtabmap-3] [INFO] [1717489181.124151498] [rtabmap.rtabmap]: rtabmap (132): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=1.4237s, Maps update=0.0155s pub=0.0032s (local map=4, WM=4)
+[rtabmap-3] [INFO] [1717489182.626430355] [rtabmap.rtabmap]: rtabmap (133): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=1.4695s, Maps update=0.0057s pub=0.0034s (local map=4, WM=4)
+[rtabmap-3] [INFO] [1717489184.922221624] [rtabmap.rtabmap]: rtabmap (134): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=2.2425s, Maps update=0.0238s pub=0.0063s (local map=5, WM=5)
+[rviz2-5] [INFO] [1717489184.986058897] [rviz2]: Trying to create a map of size 366 x 247 using 1 swatches

@@ -1,0 +1,11 @@
+<class_libraries>
+    <library path="pure_controller">
+        <!--<class type="nav2_regulated_pure_pursuit_controller::RegulatedPurePursuitController" base_class_type="nav2_core::Controller">-->
+	<class type="nav2_pure_controller::PureController" base_class_type="nav2_core::Controller"> 
+            <description>
+                pure_controller
+            </description>
+        </class>
+    </library>
+</class_libraries>
+
