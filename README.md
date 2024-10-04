@@ -13,7 +13,7 @@ In order to execute the system, the steps to follow are the following:
 5. ros2 run plansys2_simple_example_py controller_node 
 
 ## Thesis report
-You can read the thesis project [here](https://github.com/isacg5/thesis_project/tree/main/thesis)
+You can read the thesis project [here](https://github.com/isacg5/thesis_project/blob/main/thesis/s5715592_Cebollada_Gracia_Isabel.pdf)
 
 
 ## Experiments
@@ -21,16 +21,17 @@ The system has been thoroughly tested through simulated actions and a real-world
 <p align="justify">
 You can watch the first experiment here
 </p>
-[![Watch the video](https://github.com/isacg5/thesis_project/blob/main/resources/1exp.png)](https://youtu.be/avZONHfUlhs)
 
 [![Watch the video](https://github.com/isacg5/thesis_project/blob/main/resources/1exp.png)](https://youtu.be/avZONHfUlhs)
 
 <p align="justify">
 You can watch the second experiment here
 </p>
-[![Watch the video](https://github.com/isacg5/thesis_project/tree/main/resources/2exp.png)](https://youtu.be/G9KxLVNw7Q8)
+
+[![Watch the video](https://github.com/isacg5/thesis_project/blob/main/resources/2exp.png)](https://youtu.be/G9KxLVNw7Q8)
 
 <p align="justify">
 You can watch the third experiment here
 </p>
-[![Watch the video](https://github.com/isacg5/thesis_project/tree/main/resources/3exp.png)](https://youtu.be/qOSk-DQj6ss)
+
+[![Watch the video](https://github.com/isacg5/thesis_project/blob/main/resources/3exp.png)](https://youtu.be/qOSk-DQj6ss)
