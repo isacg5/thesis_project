@@ -8,8 +8,8 @@ The entire system has been developed within a Docker environment. To simplify in
 In order to connect with the ZED2 camera, the server is activated with the
 following command inside the Docker container, but be aware that the client must be running
 from the camera side:
-• cd /ros2_ws/src/zed/scripts
-• python3 server_both.py
+- cd /ros2_ws/src/zed/scripts
+- python3 server_both.py
 
 In order to execute the system, the steps to follow are the following:
 1. cd /ros2_ws/src/plansys/plansys2_simple_example_py/plansys2_simple_example_py
