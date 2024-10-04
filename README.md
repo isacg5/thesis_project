@@ -18,3 +18,17 @@ You can read the thesis project [here](https://github.com/isacg5/thesis_project/
 
 ## Experiments
 The system has been thoroughly tested through simulated actions and a real-world scenario. The results of these experiments are presented in the following videos:
+<p align="justify">
+You can watch the first experiment here
+</p>
+[![Watch the video](https://github.com/isacg5/thesis_project/tree/main/resources/1exp.png)](https://youtu.be/avZONHfUlhs)
+
+<p align="justify">
+You can watch the second experiment here
+</p>
+[![Watch the video](https://github.com/isacg5/thesis_project/tree/main/resources/2exp.png)](https://youtu.be/G9KxLVNw7Q8)
+
+<p align="justify">
+You can watch the third experiment here
+</p>
+[![Watch the video](https://github.com/isacg5/thesis_project/tree/main/resources/3exp.png)](https://youtu.be/qOSk-DQj6ss)
