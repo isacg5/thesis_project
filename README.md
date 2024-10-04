@@ -23,7 +23,7 @@ You can watch the first experiment here
 </p>
 [![Watch the video](https://github.com/isacg5/thesis_project/blob/main/resources/1exp.png)](https://youtu.be/avZONHfUlhs)
 
-[![Watch the video](https://github.com/Juancams/plan_sist_cogn/blob/main/resources/init_cap.png)](https://youtu.be/mfQO0WytDmY)
+[![Watch the video](https://github.com/Juancams/plan_sist_cogn/blob/main/resources/init_cap.png)](https://youtu.be/avZONHfUlhs)
 
 <p align="justify">
 You can watch the second experiment here
